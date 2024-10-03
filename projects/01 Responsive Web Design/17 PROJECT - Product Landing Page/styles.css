@@ -90,3 +90,13 @@ input[type="submit"] {
   font-size: 20px;
   font-weight: bold;
 }
+
+input[type="submit"]:hover {
+  color: green;
+  background-color: white;
+}
+
+input [type="submit"]:active {
+  color: white;
+  background-color: brown;
+}
