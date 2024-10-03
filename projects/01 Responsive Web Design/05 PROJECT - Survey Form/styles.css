@@ -1,0 +1,62 @@
+body {
+    background: url(https://images3.alphacoders.com/133/1338584.png);
+}
+
+h1, p {
+    text-align: center;
+    color: whitesmoke;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: cursive, sans-serif;
+}
+
+p {
+    font-size: 30px;
+    font-family: fantasy, Arial;
+}
+
+form {
+    width: 60%;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    color: whitesmoke
+}
+
+fieldset {
+    border: none;
+    padding: 30px 0;
+    border-bottom: 3px solid grey;
+}
+
+label {
+    display: block;
+    
+}
+
+legend {
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: serif, Impact;
+    font-weight: bold;
+}
+
+.name, .email, .number, .other {
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px 0;
+}
+
+fieldset:first-of-type {
+    padding-top: 0;
+}
+
+fieldset:last-of-type {
+    border: none;
+}
+
+textarea {
+    height: 100px;
+}
