@@ -33,7 +33,7 @@
   left: 0;
   height: 15vh;
   width: 100%;
-  background: url("https://www.coplus.co.uk/media/5tnfsmkw/full-stack-web-dev.jpg");
+  background: url("https://wallpapers.com/images/high/programming-hd-nutnj7cgiprbs1j2.webp");
 }
   
 .navlist {
@@ -53,7 +53,11 @@
   border-radius: 20%;
   background-color: black;
 }
-  
+
+.navlist a:hover {
+  opacity: 0.8;
+}
+
 /*End -> Navigation Bar*/
   
 a {
@@ -77,6 +81,10 @@ a {
 .div-container {
   text-align: start;
 }
+
+.div-container h1 {
+  font-size: 30px;
+}
   
 /*End -> Welcome Section*/
   
@@ -95,6 +103,12 @@ a {
   text-align: center;
   background: linear-gradient(to left, #000000 10%, #000767 20%, #000767 80%, #000000 90%);
   padding: 10rem 2rem;
+}
+
+.projects-section h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
 }
 
 .project-grid {
@@ -147,12 +161,14 @@ a {
 .contact-section {
   display: flex;
   justify-content: center;
-  background-color: grey;
+  background: url(https://www.coplus.co.uk/media/5tnfsmkw/full-stack-web-dev.jpg);
   padding: 25px
 }
   
 .freecodecamp {
-  width: 150px;
+  width: 180px;
+  border-radius: 10px;
+  border: solid red;
 }
 
 .freecodecamp:hover {
@@ -160,3 +176,14 @@ a {
 }
   
 /*End -> Contact Section*/
+
+/*Start -> Media Query 1*/
+
+@media (max-width: 28.75em) {
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/*End -> Media Query 1*/
