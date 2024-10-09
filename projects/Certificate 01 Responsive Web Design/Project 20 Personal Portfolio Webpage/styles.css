@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
 }
 
 *, *::before, *::after {
@@ -37,7 +36,7 @@
   background: url("https://www.coplus.co.uk/media/5tnfsmkw/full-stack-web-dev.jpg");
 }
   
-  .navlist {
+.navlist {
   display: flex;
   margin-right: 2rem;
   list-style: none;
@@ -69,10 +68,10 @@ a {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 40vh;
-  padding: 0 2rem;
+  height:60vh;
+  
   margin-top: 100px;
-  background: linear-gradient(to left, #09203F 2%, #155681 20%, #155681 80%, #09203F 98%);
+  background: linear-gradient(to left, #000767 10%, #000000 20%, #000000 80%, #000767 90%);
 }
   
 .div-container {
@@ -96,12 +95,10 @@ a {
   text-align: center;
   background-color: blue;
   padding: 10rem 2rem;
-  height: 100vh;
 }
 
 .project-grid {
   display: grid;
-  grid-template-columns: ;
   column-width: 100px;
   column-gap: 100px;
 }
@@ -118,13 +115,9 @@ a {
   
 .contact-section {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 50vh;
-  padding: 0 2rem;
   background-color: grey;
+  padding: 25px
 }
   
 .freecodecamp {
