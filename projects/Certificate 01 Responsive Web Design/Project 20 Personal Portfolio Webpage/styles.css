@@ -99,14 +99,20 @@ a {
 
 .project-grid {
   display: grid;
-  column-width: 100px;
-  column-gap: 100px;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .project-tile {
   padding: 10px;
-  margin: 0 0 1em 0;
+  height: 15vh;
+  width: 100%;
+  justify-self: center;
   background-color: red;
+  border: solid;
+}
+
+.project-tile:last-of-type {
+  grid-column: 1 / -1;
 }
 
 /*End -> Projects Section*/
