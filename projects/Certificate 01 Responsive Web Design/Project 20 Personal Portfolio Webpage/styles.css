@@ -93,7 +93,7 @@ a {
   
 .projects-section {
   text-align: center;
-  background-color: blue;
+  background: linear-gradient(to left, #000000 10%, #000767 20%, #000767 80%, #000000 90%);
   padding: 10rem 2rem;
 }
 
@@ -103,16 +103,41 @@ a {
 }
 
 .project-tile {
-  padding: 10px;
+  padding: 30px;
   height: 15vh;
-  width: 100%;
+  width: 50%;
   justify-self: center;
-  background-color: red;
-  border: solid;
 }
 
 .project-tile:last-of-type {
   grid-column: 1 / -1;
+}
+
+.project-tile img {
+  width: 250px;
+}
+
+.project-tile img:hover {
+  opacity: 0.8;
+}
+
+.project-tile p {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.button {
+  display: flex;
+  padding: 20px;
+  margin: 50px auto;
+  border-radius: 5px;
+  font-weight: bold; 
+}
+
+.button:hover {
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 /*End -> Projects Section*/
@@ -128,6 +153,10 @@ a {
   
 .freecodecamp {
   width: 150px;
+}
+
+.freecodecamp:hover {
+  opacity: 0.8;
 }
   
 /*End -> Contact Section*/
