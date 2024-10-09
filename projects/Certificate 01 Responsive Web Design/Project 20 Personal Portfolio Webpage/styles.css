@@ -1,112 +1,132 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
   
-  /*Start -> Colors*/
+/*Start -> Colors*/
   
-  .red {
-    color: #ee0000;
-  }
+.red {
+  color: #ee0000;
+}
   
-  .green {
-    color: #0ad900;
-  }
+.green {
+  color: #0ad900;
+}
   
-  .white {
-    color: white;
-  }
+.white {
+  color: white;
+}
   
-  /*End -> Colors*/
+/*End -> Colors*/
   
-  /*Start -> Navigation Bar*/
+/*Start -> Navigation Bar*/
   
-  .navbar {
-    display: flex;
-    justify-content: flex-end;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: url(https://www.coplus.co.uk/media/5tnfsmkw/full-stack-web-dev.jpg);
-  }
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 15vh;
+  width: 100%;
+  background: url("https://www.coplus.co.uk/media/5tnfsmkw/full-stack-web-dev.jpg");
+}
   
   .navlist {
-    display: flex;
-    margin-right: 2rem;
-    list-style: none;
-  }
+  display: flex;
+  margin-right: 2rem;
+  list-style: none;
+}
   
-  .navlist a {
-    display: block;
-    font-size: 2rem;
-    padding: 1rem;
-    margin: 1rem;
-    font-weight: bold;
-    color: yellow;
-    border: solid red;
-    border-radius: 20%;
-    background-color: black;
-  }
+.navlist a {
+  display: block;
+  font-size: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+  font-weight: bold;
+  color: yellow;
+  border: solid red;
+  border-radius: 20%;
+  background-color: black;
+}
   
-  /*End -> Navigation Bar*/
+/*End -> Navigation Bar*/
   
-  a {
-    text-decoration: none;
-  }
+a {
+  text-decoration: none;
+}
   
-  /*Start -> Welcome Section*/
+/*Start -> Welcome Section*/
   
-  .welcome-section {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      height: 30vh;
-      margin-top: 100px;
-      background: linear-gradient(to left, #09203F 2%, #155681 20%, #155681 80%, #09203F 98%);
-  }
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40vh;
+  padding: 0 2rem;
+  margin-top: 100px;
+  background: linear-gradient(to left, #09203F 2%, #155681 20%, #155681 80%, #09203F 98%);
+}
   
-  .div-container {
-    text-align: start;
-  }
+.div-container {
+  text-align: start;
+}
   
-  /*End -> Welcome Section*/
+/*End -> Welcome Section*/
   
-  /*Start -> Image Section*/
+/*Start -> Image Section*/
   
-  .image-section {
-    background: url(https://andreadams.com.br/wp-content/uploads/2023/12/Demystifying-JavaScript-A-Beginners-Guide.jpg);
-  }
+.image-section {
+  height: 60vh;
+  background: url("https://andreadams.com.br/wp-content/uploads/2023/12/Demystifying-JavaScript-A-Beginners-Guide.jpg");
+}
   
-  /*End -> Image Section*/
+/*End -> Image Section*/
   
-  /*Start -> Projects Section*/
+/*Start -> Projects Section*/
   
-  .projects-section {
-      text-align: center;
-      padding: 10rem 2rem;
-      background-color: blue;
-  }
+.projects-section {
+  text-align: center;
+  background-color: blue;
+  padding: 10rem 2rem;
+  height: 100vh;
+}
+
+.project-grid {
+  column-width: 100px;
+  column-gap: 100px;
+}
+
+.project-tile {
+  padding: 10px;
+  margin: 0 0 1em 0;
+  background-color: red;
+}
+
+/*End -> Projects Section*/
   
-  /*End -> Projects Section*/
+/*Start -> Contact Section*/
   
-  /*Start -> Contact Section*/
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50vh;
+  padding: 0 2rem;
+  background-color: grey;
+}
   
-  .contact-section {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      height: 50vh;
-      padding: 0 2rem;
-      background-color: grey;
-  }
+.freecodecamp {
+  width: 150px;
+}
   
-  .freecodecamp {
-    width: 150px;
-  }
-  
-  /*End -> Contact Section*/
+/*End -> Contact Section*/
